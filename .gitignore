@@ -1,15 +1,19 @@
 # Node.js
+node_modules/
 advertising-traffic-backend/node_modules/
 advertising-traffic-frontend/node_modules/
 
 # Nest.js
+dist/
 advertising-traffic-backend/dist/
 advertising-traffic-frontend/dist/
 
 # React.js
+build/
 advertising-traffic-backend/build/
 advertising-traffic-frontend/build/
 
 # Environment variables
+.env
 advertising-traffic-backend/.env
 advertising-traffic-frontend/.env

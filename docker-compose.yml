@@ -1,0 +1,14 @@
+version: '3'
+services:
+  backend:
+    image: advertising-traffic-backend
+    build:
+      context: ./advertising-traffic-backend
+    ports:
+      - '3000:3000'
+  frontend:
+    image: advertising-traffic-frontend
+    build:
+      context: ./advertising-traffic-frontend
+    ports:
+      - '80:80'
